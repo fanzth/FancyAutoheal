@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+modId="fancyautoheal"
+version="0.0.1"
+displayName="Fancy Autoheal"
+displayURL="https://github.com/fanzth" # URL HERE
+credits="https://github.com/fanzth" # Your name here
+authors="https://github.com/fanzth" # Your name here
+description='''
+Description of the mod here
+'''
+
+[[dependencies.fancyautoheal]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.fancyautoheal]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.fancyautoheal]]
+    modId="pixelmon"
+    mandatory=true
+    versionRange="[9.1.2,)"
+    ordering="NONE"
+    side="BOTH"
